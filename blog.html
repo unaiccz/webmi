@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="img/blog.png">
+</head>
+<body>
+    <form method="post" action="blog.php">
+<div class="form">
+
+    <label for="nombre">Nombre</label>
+    <input type="text" name="nombre" id="nombre">
+    <br>
+    <label for="nombre">Apellidos</label>
+    <input type="text" name="apellidos" id="apellidos">
+    <br>
+    <label for="nombre">Userame</label>
+    <input type="text" name="username" id="username">
+    <br>
+    <label for="nombre">Password</label>
+    <input type="password" name="password" id="password">
+    <label for="edad">edad</label>
+    <input type="number" name="edad" id="edad">
+    <br><hr>
+    <h3>Sexo</h3>
+    <input type="radio" name="sexo" value="H">H</input>
+    <input type="radio" name="sexo" value="M">M</input>
+    <input type="radio" name="sexo" value="otro" checked>Otr@</input>
+    <hr>
+    <h3>aficiones</h3>
+    <select name="aficion" id="aficion">
+        <option value="leer">deporte</option>
+        <option value="estudiar">etudiar</option>
+        <option value="bar">ir al bar</option>
+    </select>
+    <hr>
+    <h3>provincia</h3>
+    <select name="provincia" id="provincia">
+<option value="Zaragoza">Zaragoza</option>
+<option value="Huesca">Huesca</option>
+<option value="Teruel">Teruel</option>
+
+    </select>
+</div>
+<button type="submit" id="send">Enviar</button>
+    </form>
+</body>
+</html>
