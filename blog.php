@@ -39,10 +39,6 @@ mysqli_close($con);
     <title>Document</title>
 </head>
 <body>
-    <nav>
 
-    <a href="blog.php">registro</a>
-    <a href="index.html">inicio</a>
-    </nav>
 </body>
 </html>
